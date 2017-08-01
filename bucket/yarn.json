@@ -11,7 +11,7 @@
             "nvm"
         ]
     },
-    "url": "https://yarnpkg.com/downloads/0.27.5/yarn-0.27.5.msi",
+    "url": "https://github.com/yarnpkg/yarn/releases/download/v0.27.5/yarn-0.27.5.msi",
     "hash": "a3dfa13632d32a15066f152f758082d662f3ed1ed5f3e9ecda0fed877de6eb24",
     "persist": [
         "cache",
@@ -31,6 +31,6 @@
         "re": "([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://yarnpkg.com/downloads/$version/yarn-$version.msi"
+        "url": "https://github.com/yarnpkg/yarn/releases/download/$version/yarn-$version.msi"
     }
 }
